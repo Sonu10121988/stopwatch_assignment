@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Add background image for all body */
+body{
+    background-image: url(https://i.vimeocdn.com/video/694923247-6a8ea172891b0be6cbe909ae9552f2434f4d129072e721b7b2351e784217e00d-d_640x337.jpg);
+    background-size: cover;
+}
+/* style the main container */
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+/* style the box container within item */
+.box_container{
+    width: 30%;
+    height: 60%;
+    border: 1px solid black;
+    margin-top: 7rem;
+    margin-left: 10rem;
+    border-radius: 10px;
+    display: flex;;
+     gap: 40px;  
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(40, 39, 39);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.heading h1{
+    margin: 10px 0px;
+    font-size: 2.5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.time{
+    font-size: 2.5rem;
+    color: white;
+}
+/* style the start,stop and reset buttons */
+.btn{
+    background: orange;
+    width: 65px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    font-style: italic;
+}
+/* Whenever we hover every button will be some chenge */
+.btn:hover{
+    background-color: brown;
+    color: white;
+    border: none;
+}
